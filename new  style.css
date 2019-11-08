@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.BAR{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    background: white;
+}
+.BAR .logo{}
+.BAR .logo img{}
+.BAR .menu{
+    width: 100%;
+}
+.BAR .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.BAR .menu ul li{
+    padding: 10px 20px;
+    font-size: 25px;
+    align-items: center;
+}
+.BAR .menu ul li a{
+    text-decoration:none;
+    padding: 15px 30px;
+    display: block;
+    color:black;
+}
+.BAR .menu ul li a:hover{
+    background: black;
+    color: white;
+}
+.BANNER{}
+.BANNER img{
+    display: block;
+    margin: auto;
+    height: 600px;
+    width: 100%;
+}
+.headding{
+    margin: 70px 0px;
+}
+.headding h1{
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.education{
+    display: flex;
+    justify-content: center;
+    
+    border: solid 1px white;
+}
+
+.education .ls{
+    display: flex;
+    margin: 25px;
+    background-color: #E5E5E5;
+}
+
+.education .ls .image{
+background-color: brown;
+}
+.education .ls .image img{
+height: 500px;
+width: 500px;
+
+}
+.education .ls>h4{
+    background-color: brown;
+    font-size: 25px;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+.education .ls>p{
+    text-align: justify;
+    justify-content: center;
+}
+
+
+
+
+.team{
+    margin-bottom: 100px;
+}
+.team h1{
+
+    text-align: center;
+    margin: 100px;
+}
+.team p{
+    text-align: center;
+ margin: -80px;
+}

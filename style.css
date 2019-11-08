@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.one{
+
+display: flex;
+
+justify-content: space-evenly;
+
+margin-top: 20px;
+}
+
+.logo{}
+.logo a{}
+.logo a img{
+
+height: 100px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding: 10px 20px;
+    font-size: 25px;
+    align-items: center;
+}
+.menu ul li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image{
+    margin-top: 30px;
+}
+.image img{
+    display: block;
+    margin: auto;
+    height: 600px;
+    width: 1300px;
+}
+.headding{
+    margin: 20px 0px;
+}
+.headding h1{
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+.all-member{
+    display: flex;
+    justify-content: center;
+}
+.all-member .im{
+width: 22%;
+margin: 10px;
+
+}
+.all-member .im img{
+    height: 400px;
+    width: 100%;
+    margin: 0px 10px;
+    display:block;
+    margin: auto;
+
+}
+.all-member .im ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.all-member .im ul li{
+    color: orange;
+    font-size: 20px;
+    padding:0px 10px;
+
+}
+.all-member .im ul li a{
+    text-decoration: none;
+}
+
+.facebook{
+    color: #3b5998;
+}
+
+.twitter{
+    color: #00acee;
+}
+
+.youtube{
+    color: #c4302b;
+}
+
+.skype{
+    color: #00aff0;
+}
